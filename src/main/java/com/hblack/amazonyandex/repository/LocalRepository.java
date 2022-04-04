@@ -7,10 +7,14 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Repository
 public interface LocalRepository extends JpaRepository<ImageEntity, Long> {
 
-    //void deleteByImageName(String imagename);
+
+    void deleteImageEntityByImagename(String imagename);
+    ImageEntity findByImagename(String imagename);
+
 
 }
