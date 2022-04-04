@@ -13,7 +13,8 @@ import java.util.Optional;
 public interface LocalRepository extends JpaRepository<ImageEntity, Long> {
 
 
-    void deleteImageEntityByImagename(String imagename);
+    //везде ставить @Transactional
+    void deleteByImagename(String imagename);
     ImageEntity findByImagename(String imagename);
 
 

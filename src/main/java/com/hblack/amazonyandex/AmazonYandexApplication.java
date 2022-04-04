@@ -11,7 +11,7 @@ import java.io.IOException;
 @SpringBootApplication
 //@EntityScan("com.hblack.amazonyandex.repository.entity")
 //@EnableJpaRepositories("com.hblack.amazonyandex.repository")
-@ComponentScan(basePackages = {"com.hblack.amazonyandex"})
+//@ComponentScan(basePackages = {"com.hblack.amazonyandex"})
 public class AmazonYandexApplication {
 
     public static void main(String[] args) throws IOException {

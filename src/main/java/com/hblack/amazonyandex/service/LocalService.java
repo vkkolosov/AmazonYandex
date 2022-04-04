@@ -6,6 +6,7 @@ import com.hblack.amazonyandex.repository.LocalRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
@@ -30,9 +31,9 @@ public class LocalService {
     }
 
 
-
-    /*public void deleteImage(String imagename) {
-        localRepository.deleteByImageName(imagename);
-    }*/
+    @Transactional
+    public void deleteImage(String imagename) {
+        localRepository.deleteByImagename(imagename);
+    }
 
 }

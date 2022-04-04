@@ -43,11 +43,11 @@ public class ImagesController {
         return ResponseEntity.ok("saved");
     }
 
-    /*@PostMapping("/delete")
+    @PostMapping("/delete")
     public ResponseEntity delete(@RequestParam String imagename) {
         localService.deleteImage(imagename);
         return ResponseEntity.ok("deleted");
-    }*/
+    }
 
 
 
