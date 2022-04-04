@@ -1,4 +1,4 @@
-package com.hblack.amazonyandex;
+package com.hblack.amazonyandex.amazonyandex;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

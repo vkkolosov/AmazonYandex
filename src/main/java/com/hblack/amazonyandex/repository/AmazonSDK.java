@@ -1,4 +1,4 @@
-package com.hblack.repository;
+package com.hblack.amazonyandex.repository;
 
 import com.amazonaws.auth.AWSCredentials;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
